@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="120" id="KGk-i7-Jjw" customClass="CommentTableViewCell" customModule="KumparanTech_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6iW-MS-Cep">
+                        <rect key="frame" x="5" y="39" width="416" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="comment body" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVQ-MX-RVG">
+                                <rect key="frame" x="10" y="23" width="396" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XVQ-MX-RVG" secondAttribute="bottom" constant="10" id="3gZ-qt-Drl"/>
+                            <constraint firstAttribute="trailing" secondItem="XVQ-MX-RVG" secondAttribute="trailing" constant="10" id="8mE-MO-Vf3"/>
+                            <constraint firstItem="XVQ-MX-RVG" firstAttribute="top" secondItem="6iW-MS-Cep" secondAttribute="top" constant="10" id="WGj-FN-71H"/>
+                            <constraint firstItem="XVQ-MX-RVG" firstAttribute="leading" secondItem="6iW-MS-Cep" secondAttribute="leading" constant="10" id="qkq-AS-nrI"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="comment author name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-az-dTJ">
+                        <rect key="frame" x="5" y="10" width="416" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6iW-MS-Cep" secondAttribute="trailing" id="4Ml-Bo-B6U"/>
+                    <constraint firstItem="tIi-az-dTJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="4s8-5L-dD3"/>
+                    <constraint firstItem="6iW-MS-Cep" firstAttribute="top" secondItem="tIi-az-dTJ" secondAttribute="bottom" constant="8.5" id="X5a-6Z-7op"/>
+                    <constraint firstAttribute="trailing" secondItem="tIi-az-dTJ" secondAttribute="trailing" id="obA-od-Ngt"/>
+                    <constraint firstAttribute="bottom" secondItem="6iW-MS-Cep" secondAttribute="bottom" constant="15" id="ryh-jN-47O"/>
+                    <constraint firstItem="tIi-az-dTJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="zsr-LY-IXb"/>
+                    <constraint firstItem="6iW-MS-Cep" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="zxp-jY-WGS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="commentAuthor" destination="tIi-az-dTJ" id="wa4-Vv-da9"/>
+                <outlet property="commentBody" destination="XVQ-MX-RVG" id="Bva-ve-gzQ"/>
+                <outlet property="messageBubble" destination="6iW-MS-Cep" id="iaX-YX-Btt"/>
+            </connections>
+            <point key="canvasLocation" x="205.07246376811597" y="109.82142857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

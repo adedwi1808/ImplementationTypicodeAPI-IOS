@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0187C45E278568A9006001CA /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C45D278568A9006001CA /* PhotoData.swift */; };
+		018E38782784BA05004B9156 /* CommentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E38772784BA05004B9156 /* CommentData.swift */; };
 		0198A90D2782D4B6008436BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A90C2782D4B6008436BB /* AppDelegate.swift */; };
 		0198A90F2782D4B6008436BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A90E2782D4B6008436BB /* SceneDelegate.swift */; };
-		0198A9112782D4B6008436BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A9102782D4B6008436BB /* ViewController.swift */; };
+		0198A9112782D4B6008436BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A9102782D4B6008436BB /* HomeViewController.swift */; };
 		0198A9142782D4B6008436BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0198A9122782D4B6008436BB /* Main.storyboard */; };
 		0198A9162782D4B7008436BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0198A9152782D4B7008436BB /* Assets.xcassets */; };
 		0198A9192782D4B7008436BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0198A9172782D4B7008436BB /* LaunchScreen.storyboard */; };
 		0198A9242782D4B7008436BB /* KumparanTech_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A9232782D4B7008436BB /* KumparanTech_TestTests.swift */; };
 		0198A92E2782D4B7008436BB /* KumparanTech_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A92D2782D4B7008436BB /* KumparanTech_TestUITests.swift */; };
 		0198A9302782D4B7008436BB /* KumparanTech_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A92F2782D4B7008436BB /* KumparanTech_TestUITestsLaunchTests.swift */; };
+		0198A9442782E20A008436BB /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198A9422782E20A008436BB /* PostTableViewCell.swift */; };
+		0198A9452782E20A008436BB /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198A9432782E20A008436BB /* PostTableViewCell.xib */; };
+		01B44FC927857A9700F66D43 /* DetailAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B44FC827857A9700F66D43 /* DetailAlbumViewController.swift */; };
+		01B44FCE27857E5400F66D43 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B44FCC27857E5400F66D43 /* PhotoCollectionViewCell.swift */; };
+		01B44FCF27857E5400F66D43 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B44FCD27857E5400F66D43 /* PhotoCollectionViewCell.xib */; };
+		01DC4E6F278422840077CB00 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC4E6E278422840077CB00 /* Post.swift */; };
+		01DC4E74278439120077CB00 /* DetailPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC4E73278439120077CB00 /* DetailPostViewController.swift */; };
+		01DC4E7627844B610077CB00 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC4E7527844B610077CB00 /* ApiManager.swift */; };
+		01DC4E7E2784650B0077CB00 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC4E7D2784650B0077CB00 /* UserData.swift */; };
+		01DC4E80278467740077CB00 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC4E7F278467740077CB00 /* UserModel.swift */; };
+		01DC4E83278495BF0077CB00 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC4E81278495BF0077CB00 /* CommentTableViewCell.swift */; };
+		01DC4E84278495BF0077CB00 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DC4E82278495BF0077CB00 /* CommentTableViewCell.xib */; };
+		01E1740627851FA100EE5632 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1740527851FA100EE5632 /* UserDetailViewController.swift */; };
+		01E17409278537D300EE5632 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E17407278537D300EE5632 /* AlbumTableViewCell.swift */; };
+		01E1740A278537D300EE5632 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E17408278537D300EE5632 /* AlbumTableViewCell.xib */; };
+		01E1740C278557E400EE5632 /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1740B278557E400EE5632 /* AlbumData.swift */; };
+		08AAB524009455E39A9334F8 /* Pods_KumparanTech_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBFB13BC71819F71B840424 /* Pods_KumparanTech_TestTests.framework */; };
+		3E7CC5F0CD4875A17C868285 /* Pods_KumparanTech_Test_KumparanTech_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6F87D845558BBBAA437CCA /* Pods_KumparanTech_Test_KumparanTech_TestUITests.framework */; };
+		4D1D14857ED4DE0A7C333ADD /* Pods_KumparanTech_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34329D00EC269CCB0FE016 /* Pods_KumparanTech_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0187C45D278568A9006001CA /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		018E38772784BA05004B9156 /* CommentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentData.swift; sourceTree = "<group>"; };
 		0198A9092782D4B6008436BB /* KumparanTech-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KumparanTech-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0198A90C2782D4B6008436BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0198A90E2782D4B6008436BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0198A9102782D4B6008436BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0198A9102782D4B6008436BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0198A9132782D4B6008436BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0198A9152782D4B7008436BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0198A9182782D4B7008436BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,31 @@
 		0198A9292782D4B7008436BB /* KumparanTech-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KumparanTech-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0198A92D2782D4B7008436BB /* KumparanTech_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanTech_TestUITests.swift; sourceTree = "<group>"; };
 		0198A92F2782D4B7008436BB /* KumparanTech_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanTech_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0198A9422782E20A008436BB /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		0198A9432782E20A008436BB /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		01B44FC827857A9700F66D43 /* DetailAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAlbumViewController.swift; sourceTree = "<group>"; };
+		01B44FCC27857E5400F66D43 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		01B44FCD27857E5400F66D43 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		01DC4E6E278422840077CB00 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		01DC4E73278439120077CB00 /* DetailPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPostViewController.swift; sourceTree = "<group>"; };
+		01DC4E7527844B610077CB00 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		01DC4E7D2784650B0077CB00 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		01DC4E7F278467740077CB00 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		01DC4E81278495BF0077CB00 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		01DC4E82278495BF0077CB00 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		01E1740527851FA100EE5632 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		01E17407278537D300EE5632 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		01E17408278537D300EE5632 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		01E1740B278557E400EE5632 /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
+		316E9C3E364097835F0C5301 /* Pods-KumparanTech-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KumparanTech-Test.debug.xcconfig"; path = "Target Support Files/Pods-KumparanTech-Test/Pods-KumparanTech-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		3C34329D00EC269CCB0FE016 /* Pods_KumparanTech_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KumparanTech_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD811BF914C53AEA798F9DD /* Pods-KumparanTech-Test-KumparanTech-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KumparanTech-Test-KumparanTech-TestUITests.release.xcconfig"; path = "Target Support Files/Pods-KumparanTech-Test-KumparanTech-TestUITests/Pods-KumparanTech-Test-KumparanTech-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CBFB13BC71819F71B840424 /* Pods_KumparanTech_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KumparanTech_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B7484DD62DB5D2C1D1918 /* Pods-KumparanTech-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KumparanTech-Test.release.xcconfig"; path = "Target Support Files/Pods-KumparanTech-Test/Pods-KumparanTech-Test.release.xcconfig"; sourceTree = "<group>"; };
+		6AA9BF4B5955EF5F7C5996C0 /* Pods-KumparanTech-Test-KumparanTech-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KumparanTech-Test-KumparanTech-TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-KumparanTech-Test-KumparanTech-TestUITests/Pods-KumparanTech-Test-KumparanTech-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AECF6297755245A3501155 /* Pods-KumparanTech-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KumparanTech-TestTests.release.xcconfig"; path = "Target Support Files/Pods-KumparanTech-TestTests/Pods-KumparanTech-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDC7AA4140926F55759209C3 /* Pods-KumparanTech-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KumparanTech-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-KumparanTech-TestTests/Pods-KumparanTech-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD6F87D845558BBBAA437CCA /* Pods_KumparanTech_Test_KumparanTech_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KumparanTech_Test_KumparanTech_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1D14857ED4DE0A7C333ADD /* Pods_KumparanTech_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AAB524009455E39A9334F8 /* Pods_KumparanTech_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7CC5F0CD4875A17C868285 /* Pods_KumparanTech_Test_KumparanTech_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +134,8 @@
 				0198A9222782D4B7008436BB /* KumparanTech-TestTests */,
 				0198A92C2782D4B7008436BB /* KumparanTech-TestUITests */,
 				0198A90A2782D4B6008436BB /* Products */,
+				30D5C405A81762E90462525C /* Pods */,
+				4AF43B9BCB780F312AAC3AE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +154,10 @@
 			children = (
 				0198A90C2782D4B6008436BB /* AppDelegate.swift */,
 				0198A90E2782D4B6008436BB /* SceneDelegate.swift */,
-				0198A9102782D4B6008436BB /* ViewController.swift */,
-				0198A9122782D4B6008436BB /* Main.storyboard */,
+				01DC4E72278438590077CB00 /* API */,
+				01DC4E6D27841C960077CB00 /* Model */,
+				0198A93C2782DAE4008436BB /* View */,
+				0198A93D2782DAEE008436BB /* Controller */,
 				0198A9152782D4B7008436BB /* Assets.xcassets */,
 				0198A9172782D4B7008436BB /* LaunchScreen.storyboard */,
 				0198A91A2782D4B7008436BB /* Info.plist */,
@@ -127,6 +182,77 @@
 			path = "KumparanTech-TestUITests";
 			sourceTree = "<group>";
 		};
+		0198A93C2782DAE4008436BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0198A9122782D4B6008436BB /* Main.storyboard */,
+				0198A9422782E20A008436BB /* PostTableViewCell.swift */,
+				0198A9432782E20A008436BB /* PostTableViewCell.xib */,
+				01DC4E81278495BF0077CB00 /* CommentTableViewCell.swift */,
+				01DC4E82278495BF0077CB00 /* CommentTableViewCell.xib */,
+				01E17407278537D300EE5632 /* AlbumTableViewCell.swift */,
+				01E17408278537D300EE5632 /* AlbumTableViewCell.xib */,
+				01B44FCC27857E5400F66D43 /* PhotoCollectionViewCell.swift */,
+				01B44FCD27857E5400F66D43 /* PhotoCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0198A93D2782DAEE008436BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0198A9102782D4B6008436BB /* HomeViewController.swift */,
+				01DC4E73278439120077CB00 /* DetailPostViewController.swift */,
+				01E1740527851FA100EE5632 /* UserDetailViewController.swift */,
+				01B44FC827857A9700F66D43 /* DetailAlbumViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01DC4E6D27841C960077CB00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01DC4E6E278422840077CB00 /* Post.swift */,
+				01DC4E7D2784650B0077CB00 /* UserData.swift */,
+				01DC4E7F278467740077CB00 /* UserModel.swift */,
+				018E38772784BA05004B9156 /* CommentData.swift */,
+				01E1740B278557E400EE5632 /* AlbumData.swift */,
+				0187C45D278568A9006001CA /* PhotoData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01DC4E72278438590077CB00 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				01DC4E7527844B610077CB00 /* ApiManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		30D5C405A81762E90462525C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				316E9C3E364097835F0C5301 /* Pods-KumparanTech-Test.debug.xcconfig */,
+				5E3B7484DD62DB5D2C1D1918 /* Pods-KumparanTech-Test.release.xcconfig */,
+				6AA9BF4B5955EF5F7C5996C0 /* Pods-KumparanTech-Test-KumparanTech-TestUITests.debug.xcconfig */,
+				4AD811BF914C53AEA798F9DD /* Pods-KumparanTech-Test-KumparanTech-TestUITests.release.xcconfig */,
+				BDC7AA4140926F55759209C3 /* Pods-KumparanTech-TestTests.debug.xcconfig */,
+				A3AECF6297755245A3501155 /* Pods-KumparanTech-TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4AF43B9BCB780F312AAC3AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C34329D00EC269CCB0FE016 /* Pods_KumparanTech_Test.framework */,
+				FD6F87D845558BBBAA437CCA /* Pods_KumparanTech_Test_KumparanTech_TestUITests.framework */,
+				5CBFB13BC71819F71B840424 /* Pods_KumparanTech_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0198A9332782D4B7008436BB /* Build configuration list for PBXNativeTarget "KumparanTech-Test" */;
 			buildPhases = (
+				AB0FFEAA27E9DA936F679014 /* [CP] Check Pods Manifest.lock */,
 				0198A9052782D4B6008436BB /* Sources */,
 				0198A9062782D4B6008436BB /* Frameworks */,
 				0198A9072782D4B6008436BB /* Resources */,
+				19433509F43D6EC2B62242FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0198A9362782D4B7008436BB /* Build configuration list for PBXNativeTarget "KumparanTech-TestTests" */;
 			buildPhases = (
+				C4A4E339313B75C9D7241B60 /* [CP] Check Pods Manifest.lock */,
 				0198A91B2782D4B7008436BB /* Sources */,
 				0198A91C2782D4B7008436BB /* Frameworks */,
 				0198A91D2782D4B7008436BB /* Resources */,
@@ -169,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0198A9392782D4B7008436BB /* Build configuration list for PBXNativeTarget "KumparanTech-TestUITests" */;
 			buildPhases = (
+				C342F597F2C5861484FA1BC2 /* [CP] Check Pods Manifest.lock */,
 				0198A9252782D4B7008436BB /* Sources */,
 				0198A9262782D4B7008436BB /* Frameworks */,
 				0198A9272782D4B7008436BB /* Resources */,
+				D711809B6F7B315CC818E5D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +365,10 @@
 				0198A9192782D4B7008436BB /* LaunchScreen.storyboard in Resources */,
 				0198A9162782D4B7008436BB /* Assets.xcassets in Resources */,
 				0198A9142782D4B6008436BB /* Main.storyboard in Resources */,
+				0198A9452782E20A008436BB /* PostTableViewCell.xib in Resources */,
+				01B44FCF27857E5400F66D43 /* PhotoCollectionViewCell.xib in Resources */,
+				01DC4E84278495BF0077CB00 /* CommentTableViewCell.xib in Resources */,
+				01E1740A278537D300EE5632 /* AlbumTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +388,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19433509F43D6EC2B62242FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KumparanTech-Test/Pods-KumparanTech-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KumparanTech-Test/Pods-KumparanTech-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KumparanTech-Test/Pods-KumparanTech-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0FFEAA27E9DA936F679014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KumparanTech-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C342F597F2C5861484FA1BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KumparanTech-Test-KumparanTech-TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A4E339313B75C9D7241B60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KumparanTech-TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D711809B6F7B315CC818E5D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KumparanTech-Test-KumparanTech-TestUITests/Pods-KumparanTech-Test-KumparanTech-TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KumparanTech-Test-KumparanTech-TestUITests/Pods-KumparanTech-Test-KumparanTech-TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KumparanTech-Test-KumparanTech-TestUITests/Pods-KumparanTech-Test-KumparanTech-TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0198A9052782D4B6008436BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0198A9112782D4B6008436BB /* ViewController.swift in Sources */,
+				0198A9112782D4B6008436BB /* HomeViewController.swift in Sources */,
 				0198A90D2782D4B6008436BB /* AppDelegate.swift in Sources */,
+				01E1740627851FA100EE5632 /* UserDetailViewController.swift in Sources */,
+				01DC4E7E2784650B0077CB00 /* UserData.swift in Sources */,
+				01B44FCE27857E5400F66D43 /* PhotoCollectionViewCell.swift in Sources */,
+				018E38782784BA05004B9156 /* CommentData.swift in Sources */,
 				0198A90F2782D4B6008436BB /* SceneDelegate.swift in Sources */,
+				01DC4E7627844B610077CB00 /* ApiManager.swift in Sources */,
+				0198A9442782E20A008436BB /* PostTableViewCell.swift in Sources */,
+				01DC4E6F278422840077CB00 /* Post.swift in Sources */,
+				01DC4E83278495BF0077CB00 /* CommentTableViewCell.swift in Sources */,
+				01E17409278537D300EE5632 /* AlbumTableViewCell.swift in Sources */,
+				0187C45E278568A9006001CA /* PhotoData.swift in Sources */,
+				01E1740C278557E400EE5632 /* AlbumData.swift in Sources */,
+				01B44FC927857A9700F66D43 /* DetailAlbumViewController.swift in Sources */,
+				01DC4E80278467740077CB00 /* UserModel.swift in Sources */,
+				01DC4E74278439120077CB00 /* DetailPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +686,7 @@
 		};
 		0198A9342782D4B7008436BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316E9C3E364097835F0C5301 /* Pods-KumparanTech-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +715,7 @@
 		};
 		0198A9352782D4B7008436BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3B7484DD62DB5D2C1D1918 /* Pods-KumparanTech-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +744,7 @@
 		};
 		0198A9372782D4B7008436BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC7AA4140926F55759209C3 /* Pods-KumparanTech-TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +765,7 @@
 		};
 		0198A9382782D4B7008436BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AECF6297755245A3501155 /* Pods-KumparanTech-TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +786,7 @@
 		};
 		0198A93A2782D4B7008436BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA9BF4B5955EF5F7C5996C0 /* Pods-KumparanTech-Test-KumparanTech-TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +805,7 @@
 		};
 		0198A93B2782D4B7008436BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD811BF914C53AEA798F9DD /* Pods-KumparanTech-Test-KumparanTech-TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
