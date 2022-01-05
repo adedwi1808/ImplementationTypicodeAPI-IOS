@@ -1,0 +1,6 @@
+framework module Pods_KumparanTech_Test_KumparanTech_TestUITests {
+  umbrella header "Pods-KumparanTech-Test-KumparanTech-TestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
